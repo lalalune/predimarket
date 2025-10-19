@@ -1,0 +1,19 @@
+{
+  "name": "predimarket",
+  "displayName": "Predimarket",
+  "version": "1.0.0",
+  "description": "Prediction markets platform for Jeju L3",
+  "commands": {
+    "dev": "bun run dev",
+    "build": "bun run build",
+    "start": "bun run start"
+  },
+  "ports": {
+    "main": 4005
+  },
+  "dependencies": ["contracts", "config"],
+  "optional": true,
+  "enabled": true,
+  "tags": ["defi", "prediction-market", "gaming"]
+}
+
